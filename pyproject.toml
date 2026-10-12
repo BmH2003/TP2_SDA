@@ -1,0 +1,20 @@
+[project]
+name = "tp2mesa-simulation-ma"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "ipykernel>=6.29.5,<7.0.0",
+    "matplotlib>=3.8.4,<3.12.0",
+    "mesa>=3.1.0,<3.2.0",
+    "numpy>=2.1.0,<2.3.0",
+    "pandas>=2.2.0,<2.3.0",
+]
+
+[project.scripts]
+tp2mesa-simulation-ma = "tp2mesa_simulation_ma:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
